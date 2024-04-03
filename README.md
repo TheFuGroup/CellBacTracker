@@ -1,4 +1,4 @@
-# CellBackTrack - A Flexible Automated Cell Tracking and Lineage Construction Tool
+# CellBacTracker - A Flexible Automated Cell Tracking and Lineage Construction Tool
 Developed by Yu Fang and The Fu Lab
 
 # Overview
