@@ -1,4 +1,4 @@
-# CellBackTracker - A Flexible Automated Cell Tracking and Lineage Construction Tool
+# CellBackTrack - A Flexible Automated Cell Tracking and Lineage Construction Tool
 Developed by Yu Fang and The Fu Lab
 
 # Overview
@@ -20,7 +20,7 @@ I suggest to use anaconda to create vitual environment. Please visit anacondas p
 Pre-Trained Model is a Mask Rcnn. The link of downloading the model is in model/models.ipynb
 
 ## Tracking cell instances
-Tracking and lineage construction script is CellBacTracker.ipynb. The script currently supports a multi-frames TIF format as a video source. Notice that the tracking performance is dependent of segmentation prediction. So please retrain or tuning the models based on your training dataset. The current RESNET_MEAN and RESNET_STD are calculated through our training dataset. Please recalculate them before retraining.
+Tracking and lineage construction script is CellBackTrack.ipynb. The script currently supports a multi-frames TIF format as a video source. Notice that the tracking performance is dependent of segmentation prediction. So please retrain or tuning the models based on your training dataset. The current RESNET_MEAN and RESNET_STD are calculated through our training dataset. Please recalculate them before retraining.
 
 ## Save plots
 The current algorithm will calculate the instensity of cells through the TIF Image. This function can be customized to any research goal as long as it can be calculated by bounding box position, binary mask and original image. 
